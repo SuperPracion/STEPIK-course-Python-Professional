@@ -1,9 +1,12 @@
 def pairwise(iterable):
+    iterable = iter(iterable)
     try:
-        first = next(iterable)
-        for iter in iterable:
-            yield first, iter
-            first = iter
+        back = next(iterable)
+        for i in iterable:
+            yield back, i
+            back = i
+        else:
+            yield back, None
     except:
         pass
 
