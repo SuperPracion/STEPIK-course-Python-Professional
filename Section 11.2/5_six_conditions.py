@@ -1,0 +1,1 @@
+regex = r'\d[a-z][^bcDF]\S[^AEIOUY][^.,]'
