@@ -1,0 +1,1 @@
+regex = r'[A-Z]{1,2}\d[\dA-Z]? \d[ABDEFGHJLNPQRSTUWXYZ]{2}'
