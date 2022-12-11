@@ -1,0 +1,1 @@
+regex = r'[Mr|Mrs|Dr|Er]\.[a-z]+'
